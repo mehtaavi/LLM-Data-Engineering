@@ -43,7 +43,7 @@ This repository contains a complete solution for ingesting, processing, vectoriz
 
 **File Structure**
 
-assignment.ipynb: Main notebook containing the end-to-end pipeline implementation.
+assignment.py: Main python code containing the end-to-end pipeline implementation.
 
 database.sqlite: SQLite database used as one of the data sources.
 
