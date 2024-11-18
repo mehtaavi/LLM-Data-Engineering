@@ -211,6 +211,7 @@ def batch_process_embeddings(data, batch_size=100):
 embeddings_sqlite_batch = batch_process_embeddings(df_sqlite['Cleaned_Text'].tolist())
 embeddings_csv_batch = batch_process_embeddings(df_csv['Cleaned_Text'].tolist())
 
+# API creation
 from fastapi import FastAPI
 app = FastAPI()
 
