@@ -51,31 +51,23 @@ embeddings_sqlite.npy and embeddings_csv.npy: Pre-generated embeddings stored as
 
 **Key Components**
 **1. Data Ingestion:**
-
 Loads data from SQLite and CSV sources.
 Prepares the schema for efficient querying.
 
 **2. Preprocessing:**
-
 Cleans text fields using regular expressions.
 Adds a Cleaned_Text column for processed data.
-Vectorization:
 
+**3. Vectorization:**
 Generates embeddings using the all-MiniLM-L6-v2 model.
 Saves embeddings for reuse.
 
-**3. Query Retrieval:**
-
+**4. Query Retrieval:**
 Retrieves similar records based on vector embeddings.
 Uses FAISS for fast and scalable similarity search.
 
 **4. RAG Workflow:**
-
 Combines retrieved text and generates summaries using Hugging Face's transformers.
 
 **5. Monitoring and Logging:**
-
 Logs time taken for each step to identify bottlenecks.
-
-
-
