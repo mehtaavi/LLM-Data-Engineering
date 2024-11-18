@@ -44,9 +44,13 @@ This repository contains a complete solution for ingesting, processing, vectoriz
 **File Structure**
 
 assignment.ipynb: Main notebook containing the end-to-end pipeline implementation.
+
 database.sqlite: SQLite database used as one of the data sources.
+
 Reviews.csv: CSV file used as the second data source.
+
 faiss_index_sqlite and faiss_index_csv: FAISS indices for similarity search.
+
 embeddings_sqlite.npy and embeddings_csv.npy: Pre-generated embeddings stored as numpy arrays.
 
 **Key Components**
