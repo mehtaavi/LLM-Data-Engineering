@@ -50,6 +50,7 @@ faiss_index_sqlite and faiss_index_csv: FAISS indices for similarity search.
 embeddings_sqlite.npy and embeddings_csv.npy: Pre-generated embeddings stored as numpy arrays.
 
 **Key Components**
+
 **1. Data Ingestion:**
 Loads data from SQLite and CSV sources.
 Prepares the schema for efficient querying.
