@@ -41,7 +41,7 @@ This repository contains a complete solution for ingesting, processing, vectoriz
 1. database.sqlite
 2. Reviews.csv
 
-  ** File Structure**
+**File Structure**
 
 assignment.ipynb: Main notebook containing the end-to-end pipeline implementation.
 database.sqlite: SQLite database used as one of the data sources.
